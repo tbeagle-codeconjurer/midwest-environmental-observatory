@@ -1,0 +1,5245 @@
+{
+  "objectIdFieldName": "objectid",
+  "uniqueIdField": {
+    "name": "objectid",
+    "isSystemMaintained": true
+  },
+  "globalIdFieldName": "globalid",
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": {
+    "wkid": 4326,
+    "latestWkid": 4326
+  },
+  "fields": [
+    {
+      "name": "objectid",
+      "type": "esriFieldTypeOID",
+      "alias": "ObjectID",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "globalid",
+      "type": "esriFieldTypeGlobalID",
+      "alias": "GlobalID",
+      "sqlType": "sqlTypeGUID",
+      "length": 38,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Mon_Date_Time",
+      "type": "esriFieldTypeDate",
+      "alias": "Date / Time",
+      "sqlType": "sqlTypeOther",
+      "length": 255,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Latitude",
+      "type": "esriFieldTypeDouble",
+      "alias": "Latitude",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Longitude",
+      "type": "esriFieldTypeDouble",
+      "alias": "Longitude",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Mon_Results",
+      "type": "esriFieldTypeDouble",
+      "alias": "Concentration",
+      "sqlType": "sqlTypeOther",
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Mon_Units",
+      "type": "esriFieldTypeString",
+      "alias": "Units",
+      "sqlType": "sqlTypeOther",
+      "length": 20,
+      "domain": null,
+      "defaultValue": null
+    },
+    {
+      "name": "Air_Station_ID",
+      "type": "esriFieldTypeString",
+      "alias": "Station ID Select",
+      "sqlType": "sqlTypeOther",
+      "length": 25,
+      "domain": {
+        "type": "codedValue",
+        "name": "cvd_Air_Station_ID",
+        "codedValues": [
+          {
+            "name": "AS01",
+            "code": "AS01"
+          },
+          {
+            "name": "AS02",
+            "code": "AS02"
+          },
+          {
+            "name": "AS03",
+            "code": "AS03"
+          },
+          {
+            "name": "AS04",
+            "code": "AS04"
+          }
+        ]
+      },
+      "defaultValue": null
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "objectid": 234,
+        "globalid": "d0823e28-f358-4987-a8dc-0ea15af05284",
+        "Mon_Date_Time": 1795611600000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 236,
+        "globalid": "834dc190-f088-41c5-8001-89417a374cae",
+        "Mon_Date_Time": 1795612800000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 237,
+        "globalid": "b4206c3f-345b-4ce5-8ff9-9e55f9084501",
+        "Mon_Date_Time": 1795612800000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 238,
+        "globalid": "2116656a-7f89-402a-8b86-3ef5417c9a2c",
+        "Mon_Date_Time": 1795612800000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 239,
+        "globalid": "73af3cd5-dcee-46da-a8be-b639878eab2d",
+        "Mon_Date_Time": 1795612260000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 240,
+        "globalid": "68addb1b-0770-4a03-9a37-076f1dcb69ee",
+        "Mon_Date_Time": 1795612800000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 241,
+        "globalid": "10f676a6-fed1-4ef3-80a0-3306e7696e08",
+        "Mon_Date_Time": 1795613100000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 242,
+        "globalid": "8b0ba039-15c8-454a-8689-aeccfd84868f",
+        "Mon_Date_Time": 1795613100000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 243,
+        "globalid": "aec0feaa-ed54-4f36-a6ab-2c4f229fe5e0",
+        "Mon_Date_Time": 1795613100000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 244,
+        "globalid": "d5dd1a50-3458-42d7-9194-d828ac284f7a",
+        "Mon_Date_Time": 1795613400000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 245,
+        "globalid": "a338f180-0b06-4edf-8753-de928cb55f4b",
+        "Mon_Date_Time": 1795613400000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 246,
+        "globalid": "783c3eb5-241d-4e7b-bad4-5d439b0fdb70",
+        "Mon_Date_Time": 1795613400000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 247,
+        "globalid": "bf954599-9d01-4bcd-8ac6-d77b54e7da80",
+        "Mon_Date_Time": 1795613400000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 248,
+        "globalid": "94c4b818-0ffa-470c-8f95-e814fb7f47b7",
+        "Mon_Date_Time": 1795613700000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 249,
+        "globalid": "1596732f-8085-4bec-8351-818baa039dd4",
+        "Mon_Date_Time": 1795613700000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 250,
+        "globalid": "5533271c-328e-4a0f-a1c6-857d51c3d752",
+        "Mon_Date_Time": 1795613700000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 251,
+        "globalid": "7614f1c6-d9b1-4dcc-8175-b8fa4109ce5e",
+        "Mon_Date_Time": 1795613700000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 252,
+        "globalid": "bfcb04fe-27b1-4392-910a-465509e7d192",
+        "Mon_Date_Time": 1795614000000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 253,
+        "globalid": "6ff5c2ba-df6c-4642-9ed0-33a9fd7216a3",
+        "Mon_Date_Time": 1795614000000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 254,
+        "globalid": "f4d58338-ceba-4fd8-8b58-51d954da9ce4",
+        "Mon_Date_Time": 1795614000000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 255,
+        "globalid": "064c2d5d-708a-49e6-8c71-ba4fc0c04b9f",
+        "Mon_Date_Time": 1795614000000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 256,
+        "globalid": "9b362f20-3128-433c-bab6-638a4002e920",
+        "Mon_Date_Time": 1795614300000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 257,
+        "globalid": "0ea6ebca-163b-4485-908d-1be442c818c9",
+        "Mon_Date_Time": 1795614300000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 258,
+        "globalid": "01d36b23-90da-4a5c-8ccd-83f3a525788d",
+        "Mon_Date_Time": 1795614300000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 259,
+        "globalid": "2e2eb133-915c-4a3b-8d5e-03c17a1ca445",
+        "Mon_Date_Time": 1795614360000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 260,
+        "globalid": "67922912-f7c7-4bf9-913f-c3c724470cee",
+        "Mon_Date_Time": 1795614600000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 261,
+        "globalid": "b25cc9fc-666b-4135-a3d2-d12b69683c5b",
+        "Mon_Date_Time": 1795614540000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 262,
+        "globalid": "8b0acac4-cc83-4ce5-8775-41956d789149",
+        "Mon_Date_Time": 1795614540000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 263,
+        "globalid": "acb82702-e1d5-47e5-880a-1609e4bcb969",
+        "Mon_Date_Time": 1795614600000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 264,
+        "globalid": "54ce5625-2f63-4deb-86b4-aac9f24387b4",
+        "Mon_Date_Time": 1795614900000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 265,
+        "globalid": "9c77522d-6673-4da4-8928-6127d06d3b91",
+        "Mon_Date_Time": 1795614900000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 266,
+        "globalid": "6a6cb1d7-91b2-4eda-8aa0-7f5f6e1a5212",
+        "Mon_Date_Time": 1795614900000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 267,
+        "globalid": "8955970e-6526-413e-a421-4e36f8f98224",
+        "Mon_Date_Time": 1795614960000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 268,
+        "globalid": "4a705cdd-da73-4cf9-8fe1-6a727c14db8e",
+        "Mon_Date_Time": 1795615200000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 269,
+        "globalid": "c4f3ae28-e4d1-43ae-841d-cd950838460d",
+        "Mon_Date_Time": 1795615200000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 270,
+        "globalid": "87d882fc-a3ac-4c1d-822b-fcdcbe659025",
+        "Mon_Date_Time": 1795615260000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 271,
+        "globalid": "c6c6b6c7-c0fd-4a4f-8e04-4007816b9fdb",
+        "Mon_Date_Time": 1795615260000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 272,
+        "globalid": "0334f3ca-bbd6-468e-9c19-6c60e72b9fe9",
+        "Mon_Date_Time": 1795615500000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 273,
+        "globalid": "4f44a25a-0e2e-483e-8a36-577e613df12c",
+        "Mon_Date_Time": 1795615500000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 274,
+        "globalid": "ab53bfbb-ccef-4cb4-890e-27e6162f5313",
+        "Mon_Date_Time": 1795615500000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 275,
+        "globalid": "99e1163f-d521-46f1-8987-43b87cddebd7",
+        "Mon_Date_Time": 1795615500000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 276,
+        "globalid": "ab24cbb2-57ff-46c4-b66a-6fdebb5b6de3",
+        "Mon_Date_Time": 1795615500000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 277,
+        "globalid": "60f4dd93-a2db-47aa-8068-e9a13704a2a1",
+        "Mon_Date_Time": 1795615800000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 278,
+        "globalid": "e7442437-2981-4b61-8e43-abe6c37e2e40",
+        "Mon_Date_Time": 1795615800000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 279,
+        "globalid": "1f3b26e1-db8d-479e-bc86-21dc46819b78",
+        "Mon_Date_Time": 1795615800000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 280,
+        "globalid": "61f847fd-cfbb-47c7-831a-b7bae426a589",
+        "Mon_Date_Time": 1795616100000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 281,
+        "globalid": "d69f2549-ba93-4612-8950-05e476ef20fc",
+        "Mon_Date_Time": 1795616100000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 282,
+        "globalid": "08857273-7d1b-4c48-8ced-1a9753dcf100",
+        "Mon_Date_Time": 1795616100000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 283,
+        "globalid": "da2aa4a5-d502-4ef2-a9ba-9c6aa3a730a2",
+        "Mon_Date_Time": 1795616100000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 284,
+        "globalid": "55aa630d-2829-40c2-a2ec-fbf5489b5b02",
+        "Mon_Date_Time": 1795616400000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 285,
+        "globalid": "db448836-026a-4b86-886a-80d243022552",
+        "Mon_Date_Time": 1795616400000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 286,
+        "globalid": "203dbc67-2457-4e06-80dc-1e9b950a4127",
+        "Mon_Date_Time": 1795616400000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 287,
+        "globalid": "b9ae2438-37f8-443f-81c2-f7b0c91a43b4",
+        "Mon_Date_Time": 1795616400000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 288,
+        "globalid": "ca56c354-eb99-474c-825c-58979e18b808",
+        "Mon_Date_Time": 1795616700000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 289,
+        "globalid": "8ebe6aae-acf7-4bac-8663-558907a169e1",
+        "Mon_Date_Time": 1795616700000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 290,
+        "globalid": "15265cba-8cf1-481d-809a-4428a3e74fd1",
+        "Mon_Date_Time": 1795616700000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 291,
+        "globalid": "2fcb0ccf-c2a0-4ad1-813f-ae1c40d24641",
+        "Mon_Date_Time": 1795616700000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 292,
+        "globalid": "f3f37e58-43ce-41ff-8340-ea7039f97cd3",
+        "Mon_Date_Time": 1795617000000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 293,
+        "globalid": "45f13e8c-c371-4b9a-8007-169aaf80ee33",
+        "Mon_Date_Time": 1795617000000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 294,
+        "globalid": "4c54a958-240f-4dc8-b1a6-5968b66e73b0",
+        "Mon_Date_Time": 1795616880000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 295,
+        "globalid": "899d9211-1a42-4c39-8bd0-bdc08c8ad171",
+        "Mon_Date_Time": 1795617000000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 296,
+        "globalid": "39fc7aba-6d02-433a-a4f9-491a1121e8dc",
+        "Mon_Date_Time": 1795617300000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 297,
+        "globalid": "a824c562-f2af-49c5-8ec8-442d86ba504c",
+        "Mon_Date_Time": 1795617300000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 298,
+        "globalid": "d57c7931-4a0f-4293-b7c5-0ae324c1d305",
+        "Mon_Date_Time": 1795617300000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 299,
+        "globalid": "2e64ae76-7c64-4e60-8ab4-3ceb4e3bbb15",
+        "Mon_Date_Time": 1795617300000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 300,
+        "globalid": "0d6c81be-53ad-4233-8bae-34a2ad36a7aa",
+        "Mon_Date_Time": 1795617600000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 301,
+        "globalid": "08a56ff8-122f-4b2d-b209-c48860063e17",
+        "Mon_Date_Time": 1795617600000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 302,
+        "globalid": "1eea84fb-18ea-4264-8beb-c59c80bd71a6",
+        "Mon_Date_Time": 1795617600000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0.006259,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 303,
+        "globalid": "3986cd58-20d6-4e26-832f-208c2568618e",
+        "Mon_Date_Time": 1795617660000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0.003,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 304,
+        "globalid": "1c49e750-a3cd-4ddb-83c9-eeef25d77ce4",
+        "Mon_Date_Time": 1795617900000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 305,
+        "globalid": "bf700986-ca56-4a63-ba22-aff2e115d00c",
+        "Mon_Date_Time": 1795617900000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 306,
+        "globalid": "6397e41d-1286-45b4-8e14-489395921a2f",
+        "Mon_Date_Time": 1795617900000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 307,
+        "globalid": "8d8131d7-9617-48a6-851b-a04c221fe940",
+        "Mon_Date_Time": 1795617900000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 308,
+        "globalid": "9919cfba-82d5-4566-9684-f5fae3c3b8f7",
+        "Mon_Date_Time": 1795618200000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 309,
+        "globalid": "381d6dbb-8fb9-4fe9-8ce9-0928e317b1fe",
+        "Mon_Date_Time": 1795618200000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0.004582,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 310,
+        "globalid": "f2e4f479-d7eb-459d-87fe-19f6910f5a97",
+        "Mon_Date_Time": 1795618140000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 311,
+        "globalid": "c7950415-2660-400e-aa74-291b40a006ee",
+        "Mon_Date_Time": 1795618200000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 312,
+        "globalid": "05ce955e-d235-42f3-8fc4-a950c028675d",
+        "Mon_Date_Time": 1795618500000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 313,
+        "globalid": "b93a2f6b-c17b-4638-8684-54fa31e79b65",
+        "Mon_Date_Time": 1795618500000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 314,
+        "globalid": "a2b2c420-043c-47a0-8140-54187e986645",
+        "Mon_Date_Time": 1795618500000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 315,
+        "globalid": "41f0526e-b29b-49bf-870e-eeb95378b67f",
+        "Mon_Date_Time": 1795618500000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 316,
+        "globalid": "71eabfee-b47d-431a-8a28-054284285401",
+        "Mon_Date_Time": 1795618800000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 317,
+        "globalid": "9a60a576-7b47-4960-88c5-e9b561fdd101",
+        "Mon_Date_Time": 1795618740000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 318,
+        "globalid": "f5ebea93-ca66-452b-989a-dbc2881ff1b7",
+        "Mon_Date_Time": 1795618800000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 319,
+        "globalid": "496e97b4-0591-4453-8dfb-e21daaeec0e0",
+        "Mon_Date_Time": 1795618800000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 320,
+        "globalid": "321e9197-d333-4412-8dd0-408703cd7308",
+        "Mon_Date_Time": 1795619100000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 321,
+        "globalid": "9c749cd8-e390-41c5-8372-346c261e8750",
+        "Mon_Date_Time": 1795619100000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 322,
+        "globalid": "9382f34e-8853-46c1-a8e3-396edf5a14f2",
+        "Mon_Date_Time": 1795619100000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 323,
+        "globalid": "efc95ba2-9c3b-4291-a67f-be6ba7fa54b9",
+        "Mon_Date_Time": 1795619160000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 324,
+        "globalid": "663a83b9-4cdd-4b1b-8b62-ade5d8324735",
+        "Mon_Date_Time": 1795619400000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 325,
+        "globalid": "f787c831-1b50-4776-8c8c-bd71e0454583",
+        "Mon_Date_Time": 1795619400000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 326,
+        "globalid": "6ef8d7ba-1453-4006-93c9-1bc7244bd25f",
+        "Mon_Date_Time": 1795619400000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 327,
+        "globalid": "66bc12d6-612f-4c1d-ba36-0731c8c1d395",
+        "Mon_Date_Time": 1795619460000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0.002084,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 328,
+        "globalid": "2fcf25c2-7783-4b70-98e9-0d5d8010aa13",
+        "Mon_Date_Time": 1795619400000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0.002084,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 329,
+        "globalid": "4df8077d-f1d4-4dfc-b440-a808f823c550",
+        "Mon_Date_Time": 1795619700000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 330,
+        "globalid": "91eff234-357a-4088-8557-954496596950",
+        "Mon_Date_Time": 1795619700000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 331,
+        "globalid": "21a5d27b-6c9b-49a7-8c43-ac76c38d994b",
+        "Mon_Date_Time": 1795619700000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 332,
+        "globalid": "224b3e61-c5e8-4b45-9c5d-bc90625f462e",
+        "Mon_Date_Time": 1795619700000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 333,
+        "globalid": "64b1764f-dd3f-4b0d-9674-ed8cb40f41f4",
+        "Mon_Date_Time": 1795620000000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 334,
+        "globalid": "c32b46e9-23cc-40c0-83d7-6ed22f7335c9",
+        "Mon_Date_Time": 1795620000000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 335,
+        "globalid": "83fe667b-c74a-4af7-812e-f9173da46fea",
+        "Mon_Date_Time": 1795620000000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 336,
+        "globalid": "de395f9e-8967-45ec-a4ca-065711794921",
+        "Mon_Date_Time": 1795620000000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 337,
+        "globalid": "39d1b48f-df6b-429b-8037-fa1786f5947b",
+        "Mon_Date_Time": 1795620300000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 338,
+        "globalid": "29d77243-aa3f-405f-81c1-ba35c7551931",
+        "Mon_Date_Time": 1795620300000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 339,
+        "globalid": "2873d621-809c-402c-8728-511ae0f5ea69",
+        "Mon_Date_Time": 1795620300000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 340,
+        "globalid": "eaa1b6c9-c90f-4057-8215-f628a1cda6f3",
+        "Mon_Date_Time": 1795620300000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 341,
+        "globalid": "8d5169b4-e7f1-455b-b6c2-6d28e6478413",
+        "Mon_Date_Time": 1795620600000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 342,
+        "globalid": "8d3711e8-7653-4ad1-852f-904d039de103",
+        "Mon_Date_Time": 1795620600000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 343,
+        "globalid": "8f4f4e1b-a93c-4e79-8780-c8d101780713",
+        "Mon_Date_Time": 1795620600000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 344,
+        "globalid": "332b49e1-0e36-4bc4-a3b3-369bb8217f66",
+        "Mon_Date_Time": 1795620600000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 345,
+        "globalid": "cccfebbc-b6ad-4b26-9b23-6a3c89cf2867",
+        "Mon_Date_Time": 1795620900000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 346,
+        "globalid": "5bb83453-a19f-4458-8fff-274b523e0c11",
+        "Mon_Date_Time": 1795620900000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 347,
+        "globalid": "5d4256c1-d81e-4785-8a44-80294aebbb3a",
+        "Mon_Date_Time": 1795620900000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 348,
+        "globalid": "4bbe52f9-14b7-4549-81f2-de77d35c2669",
+        "Mon_Date_Time": 1795620900000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 349,
+        "globalid": "0e81459e-f475-428c-8595-5bb2a26a572d",
+        "Mon_Date_Time": 1795621200000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 350,
+        "globalid": "e0ce31f5-959f-4df6-8137-fb63e0d22846",
+        "Mon_Date_Time": 1795621200000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 351,
+        "globalid": "4eedf5f3-5a72-4270-8582-363773a4444e",
+        "Mon_Date_Time": 1795621200000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 352,
+        "globalid": "6d47be4a-3baa-495c-9054-981ad77d94cb",
+        "Mon_Date_Time": 1795621200000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 353,
+        "globalid": "038dbbf3-a42b-44c3-aedd-e16ba8d3e1fb",
+        "Mon_Date_Time": 1795621500000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 354,
+        "globalid": "c9d8afbb-2ce4-467c-88fb-1e79b0c7e0ba",
+        "Mon_Date_Time": 1795621440000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 355,
+        "globalid": "b4364e2b-4238-49ae-8404-ea656a7798e3",
+        "Mon_Date_Time": 1795621500000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 356,
+        "globalid": "d11974d0-64e2-435c-8b80-3139687088e1",
+        "Mon_Date_Time": 1795621500000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0.000197,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 357,
+        "globalid": "080efb9f-24e5-4922-a4f0-903606214829",
+        "Mon_Date_Time": 1795621800000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 358,
+        "globalid": "79add12a-fe62-42d0-815d-d8894aa8b05d",
+        "Mon_Date_Time": 1795621800000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 359,
+        "globalid": "39f81f5a-8c6d-45d0-8f62-f74b79545f4b",
+        "Mon_Date_Time": 1795621800000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 360,
+        "globalid": "3335c5a5-5e2c-4150-b295-9840da740eaa",
+        "Mon_Date_Time": 1795621800000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 361,
+        "globalid": "748fd7f0-9501-48bf-ab06-6d8ac36be64c",
+        "Mon_Date_Time": 1795622100000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 362,
+        "globalid": "e3703f8a-5fa9-4189-8599-338d1a4a7bb5",
+        "Mon_Date_Time": 1795622100000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 363,
+        "globalid": "7b144b22-fe46-4fbc-8686-cd2b15f97de4",
+        "Mon_Date_Time": 1795622100000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 364,
+        "globalid": "9f35abf0-9fa7-4b88-b828-18a25f056a4f",
+        "Mon_Date_Time": 1795622100000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 365,
+        "globalid": "53e5ae3b-c982-4c8c-a94c-a92947d6cd2c",
+        "Mon_Date_Time": 1795622400000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 366,
+        "globalid": "d51fdf26-7592-4bd4-84c8-386d6d01b0df",
+        "Mon_Date_Time": 1795622400000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 367,
+        "globalid": "58246239-6fc5-46c0-8a24-80952a9cfa46",
+        "Mon_Date_Time": 1795622400000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0.010228,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 368,
+        "globalid": "331b8eb5-7f7b-44c1-bf2f-251e26937bf6",
+        "Mon_Date_Time": 1795622460000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 369,
+        "globalid": "99b7d628-5fc8-461a-99b1-94718f0fb8bf",
+        "Mon_Date_Time": 1795622700000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 370,
+        "globalid": "c760c298-7cbf-48b9-8108-18e8b93e9436",
+        "Mon_Date_Time": 1795622700000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 371,
+        "globalid": "c65e3229-cf85-41a0-aa9a-197c61c4d9b8",
+        "Mon_Date_Time": 1795622700000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 372,
+        "globalid": "5fb298b7-bfef-4488-83bd-715306769cd7",
+        "Mon_Date_Time": 1795622700000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 373,
+        "globalid": "7622f50c-2785-4e36-8768-b7a372a80d76",
+        "Mon_Date_Time": 1795623000000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 374,
+        "globalid": "bcf01a02-f657-4b32-b3d8-fd5139512c1a",
+        "Mon_Date_Time": 1795623000000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 375,
+        "globalid": "a03a5480-465d-4c39-86e8-94b2c1ae8770",
+        "Mon_Date_Time": 1795623000000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 376,
+        "globalid": "311b2b18-53d4-405c-896d-1ec70037156a",
+        "Mon_Date_Time": 1795623000000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 377,
+        "globalid": "6f85e918-e9c1-4037-9e8a-2479d9ba17fa",
+        "Mon_Date_Time": 1795623300000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 378,
+        "globalid": "697d4a34-bfae-4d8a-8fcc-86ec3ac36e01",
+        "Mon_Date_Time": 1795623300000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 379,
+        "globalid": "cce1885f-03c7-4615-877a-9af819daaf42",
+        "Mon_Date_Time": 1795623300000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0.009469,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 380,
+        "globalid": "f269ae2c-35e0-4836-883d-f2d8c869a566",
+        "Mon_Date_Time": 1795623300000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 381,
+        "globalid": "f7fe9e38-e9bc-4d59-8e38-d5a067a91722",
+        "Mon_Date_Time": 1795623600000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 382,
+        "globalid": "a8c7c303-dcf8-41e7-ba01-da21c5a48790",
+        "Mon_Date_Time": 1795623600000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 383,
+        "globalid": "d4d22300-476a-422c-8285-2c86a10c580a",
+        "Mon_Date_Time": 1795623600000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 384,
+        "globalid": "c8b271d0-f019-43b1-be8f-5e910ae35927",
+        "Mon_Date_Time": 1795623660000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 385,
+        "globalid": "064b920e-cd1c-4942-8099-3cd1063e3d4a",
+        "Mon_Date_Time": 1795623900000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 386,
+        "globalid": "6681cff4-77a7-420b-872b-664999cc5302",
+        "Mon_Date_Time": 1795623900000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 387,
+        "globalid": "0482e89b-68c0-43e2-86a2-448d603525f5",
+        "Mon_Date_Time": 1795623900000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 388,
+        "globalid": "d19f7bd1-e466-4004-93d5-4b66cb8609bb",
+        "Mon_Date_Time": 1795623900000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 389,
+        "globalid": "97ebdd22-859f-4881-aee9-b721ff8596da",
+        "Mon_Date_Time": 1795624200000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 390,
+        "globalid": "f05c37a9-feed-422a-8bac-12004f5c4e20",
+        "Mon_Date_Time": 1795624200000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 391,
+        "globalid": "79752832-d021-466c-a028-7d9803a9dea7",
+        "Mon_Date_Time": 1795624200000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 392,
+        "globalid": "9071e1f6-d6a5-49c0-8f2a-a4a088923671",
+        "Mon_Date_Time": 1795624200000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 393,
+        "globalid": "bc860a40-0049-4d57-83fa-facd2fcabbb1",
+        "Mon_Date_Time": 1795624500000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 394,
+        "globalid": "5063fce9-02ba-43e0-8726-ef8ed3d85b06",
+        "Mon_Date_Time": 1795624500000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 395,
+        "globalid": "8e427678-8c6e-409b-afa2-b487639d4ea4",
+        "Mon_Date_Time": 1795624500000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 396,
+        "globalid": "0ee24833-8570-43d2-a680-48c42a92c8db",
+        "Mon_Date_Time": 1795624500000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 397,
+        "globalid": "eb2a974c-8090-4483-8fa5-d4899a824e9a",
+        "Mon_Date_Time": 1795624800000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 398,
+        "globalid": "25c6b0c4-03eb-4a18-839c-a4de7b0f94ca",
+        "Mon_Date_Time": 1795624800000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 399,
+        "globalid": "8b58b9e9-3c26-46e4-bc7c-6dc719153523",
+        "Mon_Date_Time": 1795624800000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 400,
+        "globalid": "06224d16-7701-4243-8bb9-130f7b781f33",
+        "Mon_Date_Time": 1795624800000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 401,
+        "globalid": "0b01c731-e2a5-41b9-b110-8de3a58e6790",
+        "Mon_Date_Time": 1795625100000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 402,
+        "globalid": "0f6fc711-bdf4-4f7c-85fa-9d2d45dcd7fe",
+        "Mon_Date_Time": 1795625100000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 403,
+        "globalid": "ae9b3767-5cad-4e76-9a99-a5402e66f370",
+        "Mon_Date_Time": 1795625100000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 404,
+        "globalid": "1c7065a9-4797-47dc-8f2e-e62c461d1ceb",
+        "Mon_Date_Time": 1795625100000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 405,
+        "globalid": "5bb57ad8-04f8-4407-b799-458acaff75ff",
+        "Mon_Date_Time": 1795625400000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 406,
+        "globalid": "55c37080-f8e1-4b7d-8458-9c0bb41d0828",
+        "Mon_Date_Time": 1795625400000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 407,
+        "globalid": "a6d93915-529f-48dc-86b7-002a535e8966",
+        "Mon_Date_Time": 1795625400000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 408,
+        "globalid": "0afae956-0631-4735-a391-5d665b391717",
+        "Mon_Date_Time": 1795625400000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 409,
+        "globalid": "148ceb27-3205-4922-8822-9bc6d01996b0",
+        "Mon_Date_Time": 1795625700000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 410,
+        "globalid": "8a4e320f-4f5e-4f09-8cb8-701ef0cf7c26",
+        "Mon_Date_Time": 1795625700000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 411,
+        "globalid": "09bb8ae0-051c-4fe0-8b8d-a57b95d283cb",
+        "Mon_Date_Time": 1795625700000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 412,
+        "globalid": "a3a46971-e764-4be7-aa20-173424eff18c",
+        "Mon_Date_Time": 1795625700000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0.002581,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 413,
+        "globalid": "a2b75a30-6da2-474e-8244-ce5cfbabfd78",
+        "Mon_Date_Time": 1795626000000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 414,
+        "globalid": "ce82e718-3289-455e-9614-00919b6f0c33",
+        "Mon_Date_Time": 1795626000000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 415,
+        "globalid": "6e817732-26ed-4b85-8133-0d23a3251480",
+        "Mon_Date_Time": 1795626000000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 416,
+        "globalid": "888d449c-50f4-4421-8cc5-39c3ceb9cb69",
+        "Mon_Date_Time": 1795626120000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 417,
+        "globalid": "410c27d6-ee9a-4eb3-8690-224d89a00912",
+        "Mon_Date_Time": 1795626300000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 418,
+        "globalid": "fa85f2bb-b47b-4b69-841a-681f52ccd620",
+        "Mon_Date_Time": 1795626300000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0.003275,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 419,
+        "globalid": "a23b5aaf-143e-491c-8aa2-209832efffe8",
+        "Mon_Date_Time": 1795626300000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 420,
+        "globalid": "fbcb77d1-0486-4fd3-9dca-74708f96d405",
+        "Mon_Date_Time": 1795626360000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 421,
+        "globalid": "3333f8fe-d836-4674-9d3b-a3615dccf9d6",
+        "Mon_Date_Time": 1795626600000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 422,
+        "globalid": "7ed328ad-4f7f-445b-8926-c370576d36e8",
+        "Mon_Date_Time": 1795626600000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 423,
+        "globalid": "3b23beb6-1d4e-4926-a60f-49d1e1f5e878",
+        "Mon_Date_Time": 1795626660000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 424,
+        "globalid": "86f5fd25-3a8f-4865-89b8-26da6e2a028f",
+        "Mon_Date_Time": 1795626900000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 425,
+        "globalid": "46e6bda1-055c-4f57-8155-91d45fc460c1",
+        "Mon_Date_Time": 1795626900000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 426,
+        "globalid": "084f5a9c-09b6-4e9f-abab-87b8e33e03da",
+        "Mon_Date_Time": 1795626900000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 427,
+        "globalid": "d3b20671-52a5-4957-a694-7e7aa954429b",
+        "Mon_Date_Time": 1795627200000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 428,
+        "globalid": "aec2c018-67f8-4ddc-8cd4-b1891c526944",
+        "Mon_Date_Time": 1795627200000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 429,
+        "globalid": "c64439d5-def0-4924-8a96-dc254aa01936",
+        "Mon_Date_Time": 1795627200000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 430,
+        "globalid": "dbf69f65-0e97-4124-bb16-6ca27a1c9367",
+        "Mon_Date_Time": 1795627500000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 431,
+        "globalid": "01169506-5f8c-4cf8-8b88-6166f67b114e",
+        "Mon_Date_Time": 1795627500000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 432,
+        "globalid": "d1faa4f7-50dd-43e9-b568-5ea4228c5fb2",
+        "Mon_Date_Time": 1795627560000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 433,
+        "globalid": "08758972-60e1-4dbc-ac6e-8fefc60e192b",
+        "Mon_Date_Time": 1795627800000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 434,
+        "globalid": "8a2f980a-865e-465c-8277-69714ce6a410",
+        "Mon_Date_Time": 1795627800000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0.000496,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 435,
+        "globalid": "da1aa9d7-887d-44ab-9652-32879666fb90",
+        "Mon_Date_Time": 1795627800000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 436,
+        "globalid": "5e7e480b-e330-4e90-a9f5-e305f3977ed0",
+        "Mon_Date_Time": 1795627920000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 437,
+        "globalid": "07673fe4-0229-4d7e-8458-5aa642a3ece6",
+        "Mon_Date_Time": 1795628040000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 438,
+        "globalid": "6769bd50-a538-4d13-ae08-8e89bceba41f",
+        "Mon_Date_Time": 1795628100000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 439,
+        "globalid": "253d4460-f967-4cab-8457-60f9159aeb5e",
+        "Mon_Date_Time": 1795628100000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 440,
+        "globalid": "ac47dcd7-c7ae-45af-a4a8-a35a31e9e856",
+        "Mon_Date_Time": 1795628100000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 441,
+        "globalid": "6389c84f-1c86-49cf-8105-27b25ee34414",
+        "Mon_Date_Time": 1795628100000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 442,
+        "globalid": "f2abbd24-4773-480f-8f55-03c56fd8e8bd",
+        "Mon_Date_Time": 1795628160000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 443,
+        "globalid": "bbda095d-6150-401b-846c-b8a4250f3cbb",
+        "Mon_Date_Time": 1795628220000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 444,
+        "globalid": "9f2b1351-cd49-4c97-8585-5b3204782a4d",
+        "Mon_Date_Time": 1795628280000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 445,
+        "globalid": "eba93e5e-e754-42d8-8ec1-2eb5db7204e0",
+        "Mon_Date_Time": 1795628340000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 446,
+        "globalid": "e6b5d0c2-c38e-4ad5-af80-9839ce220c7c",
+        "Mon_Date_Time": 1795628400000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 447,
+        "globalid": "1150db03-723e-4a87-83a3-ece3350a571c",
+        "Mon_Date_Time": 1795628340000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 448,
+        "globalid": "c9a53430-94fa-4959-82f5-a7a7d9950a7e",
+        "Mon_Date_Time": 1795628400000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 449,
+        "globalid": "10e21ec3-56c0-4a7c-bb9b-fdd6b185793a",
+        "Mon_Date_Time": 1795628460000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0.004292,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 450,
+        "globalid": "25db5b5f-77b3-409b-a7b6-729a2dd07011",
+        "Mon_Date_Time": 1795628700000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 451,
+        "globalid": "d9700492-eb62-4166-8716-f499a673d69e",
+        "Mon_Date_Time": 1795628700000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0.00373,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 452,
+        "globalid": "c82bef7c-3721-47e2-b7ef-e1f1c8795542",
+        "Mon_Date_Time": 1795628760000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 453,
+        "globalid": "ab98231d-ada4-46b5-888b-0f32211a045a",
+        "Mon_Date_Time": 1795629000000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 454,
+        "globalid": "b0e595fc-dbed-4e60-87e7-3fce3f5a2446",
+        "Mon_Date_Time": 1795629000000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 455,
+        "globalid": "153259c1-0cc6-4d44-8c8c-4dac8e3b6138",
+        "Mon_Date_Time": 1795628700000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 456,
+        "globalid": "dc48d9f9-5041-47bb-800b-f5278fd0674e",
+        "Mon_Date_Time": 1795629300000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 457,
+        "globalid": "fe0f919f-2121-4439-8004-5fc034554999",
+        "Mon_Date_Time": 1795629300000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 459,
+        "globalid": "db0e44c3-fba8-4408-8685-4062be1f4c0d",
+        "Mon_Date_Time": 1795629600000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 460,
+        "globalid": "f9f5ea6a-8d54-4586-bfc7-d0bb774bfd6f",
+        "Mon_Date_Time": 1795629780000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 461,
+        "globalid": "056dcde5-e251-4fcd-8046-59661d4c1094",
+        "Mon_Date_Time": 1795629900000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 462,
+        "globalid": "9a00a8a0-1aa9-4e6e-8244-983a7ede5d7b",
+        "Mon_Date_Time": 1795629900000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 463,
+        "globalid": "aee3c24f-574b-45a6-8f48-0e97033648f3",
+        "Mon_Date_Time": 1795629900000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 464,
+        "globalid": "2f527be2-8288-4189-822d-692a22af7c5c",
+        "Mon_Date_Time": 1795629900000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 465,
+        "globalid": "2cbbd666-967b-4c96-b12a-627daf2aa547",
+        "Mon_Date_Time": 1795629900000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 466,
+        "globalid": "5d9aa95f-53e1-42c3-8729-4f971391d931",
+        "Mon_Date_Time": 1795629960000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 467,
+        "globalid": "ed2142b7-d3a4-4c57-8307-a1b4bb6566f0",
+        "Mon_Date_Time": 1795630020000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 468,
+        "globalid": "b2b7ec6e-0942-420a-85f2-10a2ffb240f1",
+        "Mon_Date_Time": 1795630020000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 469,
+        "globalid": "f6e564a1-2008-4182-887c-d95e3a64868f",
+        "Mon_Date_Time": 1795630200000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 470,
+        "globalid": "6b2775d7-8087-4284-b73e-cdd24dc81187",
+        "Mon_Date_Time": 1795630200000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 471,
+        "globalid": "512b58d1-0165-400e-9b4b-223d2c6b2bb3",
+        "Mon_Date_Time": 1795630200000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 472,
+        "globalid": "d2bf308f-c7a1-4b79-984d-f6f142bf5e06",
+        "Mon_Date_Time": 1795630500000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 473,
+        "globalid": "84607368-288e-4abb-8ea7-768334f8b5d6",
+        "Mon_Date_Time": 1795630560000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0.000669,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 474,
+        "globalid": "cfa22fdb-a06e-4786-9ea5-201eb90065b0",
+        "Mon_Date_Time": 1795630500000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0.000316,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 475,
+        "globalid": "cd430a0a-d8e7-4817-b4e1-10555431cea9",
+        "Mon_Date_Time": 1795630800000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 476,
+        "globalid": "cc09b285-a994-4c5d-8a4c-4cd49719951c",
+        "Mon_Date_Time": 1795630800000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 477,
+        "globalid": "ae4af6cc-c4bb-4563-8035-adefd8d2d4f2",
+        "Mon_Date_Time": 1795630740000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 478,
+        "globalid": "044631fa-bac0-4a38-b1d6-1cd12886e78a",
+        "Mon_Date_Time": 1795630920000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 479,
+        "globalid": "436b80af-e0fe-41be-8409-ac22c3830aea",
+        "Mon_Date_Time": 1795630980000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 480,
+        "globalid": "07194704-d81c-4941-ae20-6b18c3cd8f8f",
+        "Mon_Date_Time": 1795631100000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 481,
+        "globalid": "82ab5e6b-8cbb-481e-8d73-114d709a878a",
+        "Mon_Date_Time": 1795631100000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 482,
+        "globalid": "7d5477fe-0691-482e-b9a8-e7387f2e51fa",
+        "Mon_Date_Time": 1795631100000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 483,
+        "globalid": "2204cb60-46b8-4e42-84c9-6307ae713797",
+        "Mon_Date_Time": 1795631160000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 484,
+        "globalid": "d20d8321-e400-4032-8948-c19e9b31a23d",
+        "Mon_Date_Time": 1795631220000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 485,
+        "globalid": "5190a11a-6e8f-4d04-8430-9159c3c077db",
+        "Mon_Date_Time": 1795631280000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 486,
+        "globalid": "8c37c504-ab43-4702-8b0d-8717ec8c2250",
+        "Mon_Date_Time": 1795631400000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 487,
+        "globalid": "a8ece8c0-aa26-4032-815e-1b809091c130",
+        "Mon_Date_Time": 1795631400000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 488,
+        "globalid": "7724c328-5258-4b77-8f9d-6ba861e31303",
+        "Mon_Date_Time": 1795631400000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 489,
+        "globalid": "7df3840a-1b8b-4884-86fb-03de0ba2c9fa",
+        "Mon_Date_Time": 1795631400000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0.00185,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 490,
+        "globalid": "e24dda18-50f9-464c-bd49-9cd6a8fac096",
+        "Mon_Date_Time": 1795631700000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 491,
+        "globalid": "bb33b23b-0d97-4fe6-9612-4d0ebd54fd74",
+        "Mon_Date_Time": 1795631700000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 492,
+        "globalid": "99703e5d-58a4-4593-8de7-2ca8c775b71e",
+        "Mon_Date_Time": 1795631700000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 493,
+        "globalid": "bb8f0517-2876-4d68-80eb-5c34f23a66dd",
+        "Mon_Date_Time": 1795631700000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 494,
+        "globalid": "748ee4ae-829d-469d-a280-4cd93aad006e",
+        "Mon_Date_Time": 1795632000000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 495,
+        "globalid": "26199d74-18c4-4591-889f-f9c7c859d4c7",
+        "Mon_Date_Time": 1795632000000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 496,
+        "globalid": "c734fe47-46f4-46e8-8bdf-3b845895fe3b",
+        "Mon_Date_Time": 1795632000000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 497,
+        "globalid": "3fff89eb-5daf-4a22-98d2-655dab2bf5e6",
+        "Mon_Date_Time": 1795632000000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 498,
+        "globalid": "a194dd15-51f5-4d08-8219-dedf429b3ddc",
+        "Mon_Date_Time": 1795632300000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 499,
+        "globalid": "f86e4a92-1c8e-4378-994c-3496521ea10f",
+        "Mon_Date_Time": 1795632300000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 500,
+        "globalid": "3fc40d65-495c-4134-831b-d08d57afee29",
+        "Mon_Date_Time": 1795632300000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 501,
+        "globalid": "95329b5b-8587-4a4d-8d91-f8a98a44e83b",
+        "Mon_Date_Time": 1795632360000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 502,
+        "globalid": "3b2aa254-d947-4d03-803a-7ffcc7e2947f",
+        "Mon_Date_Time": 1795632600000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 503,
+        "globalid": "293c05f0-072e-4313-8432-86a4369d0315",
+        "Mon_Date_Time": 1795632600000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 504,
+        "globalid": "5ed0c878-9777-4ac8-8d5e-dddc9aa0692a",
+        "Mon_Date_Time": 1795632600000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 505,
+        "globalid": "a1736980-e298-4f47-b600-0a3e8c1b5731",
+        "Mon_Date_Time": 1795632600000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 506,
+        "globalid": "f8066db7-39e2-4180-90c1-91596e33f34a",
+        "Mon_Date_Time": 1795632900000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 507,
+        "globalid": "b76315c6-a433-4a03-bc39-b1d965a2460a",
+        "Mon_Date_Time": 1795632900000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 508,
+        "globalid": "1e033a8d-f722-48a9-8001-c6a9e4112bcd",
+        "Mon_Date_Time": 1795632900000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 509,
+        "globalid": "7270b1eb-b84b-4001-8fa4-b59297e3be48",
+        "Mon_Date_Time": 1795633020000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 510,
+        "globalid": "730695c8-ecf6-4d8d-9ede-e387287c0a66",
+        "Mon_Date_Time": 1795633200000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 511,
+        "globalid": "82becd98-8288-4d9e-8c81-a85d99cc977c",
+        "Mon_Date_Time": 1795633200000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 512,
+        "globalid": "2ff76ce4-1e99-4105-8d49-4f28a1b4e5e1",
+        "Mon_Date_Time": 1795633200000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 513,
+        "globalid": "787d3a04-c44d-4fc7-95d7-efe1e4b3731b",
+        "Mon_Date_Time": 1795633200000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 514,
+        "globalid": "e7327fe6-8afe-4d34-8e4b-7aba3c809b99",
+        "Mon_Date_Time": 1795633500000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 515,
+        "globalid": "5a1d00fa-25bf-4d1a-bb9c-39a4998f4238",
+        "Mon_Date_Time": 1795633500000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 516,
+        "globalid": "b38205ad-27cd-447e-8df9-a14226e73c9a",
+        "Mon_Date_Time": 1795633500000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 517,
+        "globalid": "2ce2d397-ff5b-4706-8f3f-12da849bddb5",
+        "Mon_Date_Time": 1795633500000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 518,
+        "globalid": "1cfb189d-1f6d-47dc-ae9b-3775b4599f14",
+        "Mon_Date_Time": 1795633800000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 519,
+        "globalid": "6ac86a23-2e15-47d8-8eba-4f2904b3717f",
+        "Mon_Date_Time": 1795633800000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 520,
+        "globalid": "bda0bfd7-e7ce-41fd-8e40-4ab0354f27c7",
+        "Mon_Date_Time": 1795633800000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 521,
+        "globalid": "32b437bd-5a96-4af4-86cf-6cbea20159f8",
+        "Mon_Date_Time": 1795633800000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 522,
+        "globalid": "ce086cf3-5466-4dcc-9642-ba7f5f0ff6c4",
+        "Mon_Date_Time": 1795634100000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 523,
+        "globalid": "4a530380-f24d-4e57-87f6-efc499e661b3",
+        "Mon_Date_Time": 1795634100000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 524,
+        "globalid": "86617ab5-cef3-428d-8fc3-9769e380d758",
+        "Mon_Date_Time": 1795634100000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 525,
+        "globalid": "16385cf3-79a1-4f9b-8d6b-e9b461dd0708",
+        "Mon_Date_Time": 1795634160000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 526,
+        "globalid": "c7110381-f5af-43af-b9ac-79c5efcf2f7d",
+        "Mon_Date_Time": 1795634400000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 527,
+        "globalid": "ce134c68-bbfd-49de-81b5-26e9a2cbde4c",
+        "Mon_Date_Time": 1795634400000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 528,
+        "globalid": "bb7eb2ed-b065-4ba0-8c11-21881ac9a05d",
+        "Mon_Date_Time": 1795634400000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 529,
+        "globalid": "ed4312af-8ad8-4c13-a0fd-95282eea4b35",
+        "Mon_Date_Time": 1795634460000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 530,
+        "globalid": "284c446c-2270-4377-9535-3d1b23877b7a",
+        "Mon_Date_Time": 1795634700000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 531,
+        "globalid": "11474fe1-8464-47a3-82b3-facf2fe9e029",
+        "Mon_Date_Time": 1795634700000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 532,
+        "globalid": "cb2bb780-9e39-4b37-950a-8e318c1066dd",
+        "Mon_Date_Time": 1795634700000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 533,
+        "globalid": "2d5dde42-f835-4ee7-89de-e8dd071b0576",
+        "Mon_Date_Time": 1795634700000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 534,
+        "globalid": "ecb97f1b-5c7e-4cf1-9566-d30b9a32699a",
+        "Mon_Date_Time": 1795635000000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 535,
+        "globalid": "4e661df0-2636-46c8-875e-39de133e37c7",
+        "Mon_Date_Time": 1795635000000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 536,
+        "globalid": "3100602d-2c51-4402-849c-349895d3b620",
+        "Mon_Date_Time": 1795635000000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 537,
+        "globalid": "5dbb0147-da50-4f81-8056-8ade7ed4895b",
+        "Mon_Date_Time": 1795635000000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 538,
+        "globalid": "3b474b18-4bf4-4682-9884-5c9b6deaf53b",
+        "Mon_Date_Time": 1795635240000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 539,
+        "globalid": "20839b09-b9dc-4908-9b25-5139d831add9",
+        "Mon_Date_Time": 1795635300000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 540,
+        "globalid": "03d9b4d7-f95c-4614-81a8-3aa151fbc67a",
+        "Mon_Date_Time": 1795635300000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0.002905,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 541,
+        "globalid": "ad7afc56-7c6e-4818-8c73-30648c83f184",
+        "Mon_Date_Time": 1795635360000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 542,
+        "globalid": "417da816-d6d9-4018-bbbd-024f0ea68162",
+        "Mon_Date_Time": 1795635600000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 543,
+        "globalid": "af2afa9d-1242-4c2b-89de-514736445163",
+        "Mon_Date_Time": 1795635600000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 544,
+        "globalid": "7b9b881e-4035-49ff-b74d-5d317b9954c8",
+        "Mon_Date_Time": 1795635600000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 545,
+        "globalid": "f05e170f-cc86-4ce1-83a9-f8e1dec0d90f",
+        "Mon_Date_Time": 1795635840000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 546,
+        "globalid": "18bc9f89-1a33-4ae0-8216-567559c77a0d",
+        "Mon_Date_Time": 1795635900000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 547,
+        "globalid": "6cb8b753-5c70-48c3-8541-1cf01647cbbe",
+        "Mon_Date_Time": 1795635900000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 548,
+        "globalid": "986e5240-cdce-4ed8-85d6-34646c4baa36",
+        "Mon_Date_Time": 1795635900000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0.003404,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 549,
+        "globalid": "ab2c5c11-5ed7-40e3-8cf0-49efe9ba7f65",
+        "Mon_Date_Time": 1795635900000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 550,
+        "globalid": "a0f81ea9-02d3-4c37-8a11-471587a1ebb6",
+        "Mon_Date_Time": 1795636200000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 551,
+        "globalid": "8620e009-26eb-4758-8c2a-3c35d16fb429",
+        "Mon_Date_Time": 1795636200000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 552,
+        "globalid": "fca52596-4e2d-43d6-8f5e-62579dccb73e",
+        "Mon_Date_Time": 1795636200000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 553,
+        "globalid": "657e7560-418f-44dd-8bbe-c39034125ce3",
+        "Mon_Date_Time": 1795636260000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0.00427,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 554,
+        "globalid": "c8c8d63b-bc02-48f3-a6f4-536ea1203269",
+        "Mon_Date_Time": 1795636500000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 555,
+        "globalid": "3dc87d4f-fdb9-40bc-87cc-666b7c13b88a",
+        "Mon_Date_Time": 1795636500000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 556,
+        "globalid": "14ebd5f0-4651-40b1-898e-bebb39affb19",
+        "Mon_Date_Time": 1795636500000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    }
+  ],
+  "source": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/IAAAP_Xact_Data_Public_Viewer/FeatureServer/0",
+  "retrieved_at": null,
+  "provenance": "User supplied public ArcGIS export on November 25, 2026; exact retrieval timestamp unknown."
+}
