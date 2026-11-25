@@ -971,9 +971,117 @@
       "kind": "Measured",
       "quality": "NOAA flag: V",
       "source": "https://api.weather.gov/stations/KSBN/observations/latest"
+    },
+    {
+      "time": "2026-11-25T21:20:00+00:00",
+      "station": "KIRK",
+      "metric": "temp",
+      "value": 37.4,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KIRK/observations/latest"
+    },
+    {
+      "time": "2026-11-25T21:20:00+00:00",
+      "station": "KIRK",
+      "metric": "wind",
+      "value": 11.498,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KIRK/observations/latest"
+    },
+    {
+      "time": "2026-11-25T21:20:00+00:00",
+      "station": "KIRK",
+      "metric": "direction",
+      "value": 20,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KIRK/observations/latest"
+    },
+    {
+      "time": "2026-11-25T20:55:00+00:00",
+      "station": "KGBG",
+      "metric": "temp",
+      "value": 37.4,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KGBG/observations/latest"
+    },
+    {
+      "time": "2026-11-25T20:55:00+00:00",
+      "station": "KGBG",
+      "metric": "wind",
+      "value": 13.869,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KGBG/observations/latest"
+    },
+    {
+      "time": "2026-11-25T20:55:00+00:00",
+      "station": "KGBG",
+      "metric": "direction",
+      "value": 30,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KGBG/observations/latest"
+    },
+    {
+      "time": "2026-11-25T21:10:00+00:00",
+      "station": "KDVN",
+      "metric": "temp",
+      "value": 37.4,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KDVN/observations/latest"
+    },
+    {
+      "time": "2026-11-25T21:10:00+00:00",
+      "station": "KDVN",
+      "metric": "wind",
+      "value": 12.661,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KDVN/observations/latest"
+    },
+    {
+      "time": "2026-11-25T21:10:00+00:00",
+      "station": "KDVN",
+      "metric": "direction",
+      "value": 30,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KDVN/observations/latest"
+    },
+    {
+      "time": "2026-11-25T21:20:00+00:00",
+      "station": "KVPZ",
+      "metric": "temp",
+      "value": 41.0,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KVPZ/observations/latest"
+    },
+    {
+      "time": "2026-11-25T21:20:00+00:00",
+      "station": "KVPZ",
+      "metric": "wind",
+      "value": 11.498,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KVPZ/observations/latest"
+    },
+    {
+      "time": "2026-11-25T21:20:00+00:00",
+      "station": "KVPZ",
+      "metric": "direction",
+      "value": 50,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KVPZ/observations/latest"
     }
   ],
-  "checked_at": "2026-11-25T21:39:00.111953+00:00",
+  "checked_at": "2026-11-25T21:41:19.118113+00:00",
   "statuses": [
     {
       "station": "KBRL",
@@ -988,7 +1096,7 @@
     {
       "station": "KIRK",
       "status": "3 values returned",
-      "observation_time": "2026-11-25T21:10:00+00:00"
+      "observation_time": "2026-11-25T21:20:00+00:00"
     },
     {
       "station": "KUIN",
@@ -998,7 +1106,7 @@
     {
       "station": "KGBG",
       "status": "3 values returned",
-      "observation_time": "2026-11-25T20:35:00+00:00"
+      "observation_time": "2026-11-25T20:55:00+00:00"
     },
     {
       "station": "KPIA",
@@ -1008,12 +1116,12 @@
     {
       "station": "KDVN",
       "status": "3 values returned",
-      "observation_time": "2026-11-25T21:20:00+00:00"
+      "observation_time": "2026-11-25T21:10:00+00:00"
     },
     {
       "station": "KVPZ",
       "status": "3 values returned",
-      "observation_time": "2026-11-25T21:15:00+00:00"
+      "observation_time": "2026-11-25T21:20:00+00:00"
     },
     {
       "station": "KSBN",
