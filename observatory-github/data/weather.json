@@ -2105,9 +2105,36 @@
       "kind": "Measured",
       "quality": "NOAA flag: V",
       "source": "https://api.weather.gov/stations/KGBG/observations/latest"
+    },
+    {
+      "time": "2026-11-25T22:15:00+00:00",
+      "station": "KEOK",
+      "metric": "temp",
+      "value": 37.4,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KEOK/observations/latest"
+    },
+    {
+      "time": "2026-11-25T22:15:00+00:00",
+      "station": "KEOK",
+      "metric": "wind",
+      "value": 6.935,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KEOK/observations/latest"
+    },
+    {
+      "time": "2026-11-25T22:15:00+00:00",
+      "station": "KEOK",
+      "metric": "direction",
+      "value": 40,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KEOK/observations/latest"
     }
   ],
-  "checked_at": "2026-11-25T22:59:21.579695+00:00",
+  "checked_at": "2026-11-25T23:10:40.158333+00:00",
   "statuses": [
     {
       "station": "KBRL",
@@ -2117,7 +2144,7 @@
     {
       "station": "KEOK",
       "status": "3 values returned",
-      "observation_time": "2026-11-25T21:55:00+00:00"
+      "observation_time": "2026-11-25T22:15:00+00:00"
     },
     {
       "station": "KIRK",
