@@ -1734,7 +1734,7 @@
       "metric": "temp",
       "value": 37.4,
       "kind": "Measured",
-      "quality": "NOAA flag: V",
+      "quality": "NOAA flag: S",
       "source": "https://api.weather.gov/stations/KEOK/observations/latest"
     },
     {
@@ -1743,7 +1743,7 @@
       "metric": "wind",
       "value": 6.935,
       "kind": "Measured",
-      "quality": "NOAA flag: V",
+      "quality": "NOAA flag: S",
       "source": "https://api.weather.gov/stations/KEOK/observations/latest"
     },
     {
@@ -1752,7 +1752,7 @@
       "metric": "direction",
       "value": 40,
       "kind": "Measured",
-      "quality": "NOAA flag: V",
+      "quality": "NOAA flag: S",
       "source": "https://api.weather.gov/stations/KEOK/observations/latest"
     },
     {
@@ -2078,9 +2078,36 @@
       "kind": "Measured",
       "quality": "NOAA flag: V",
       "source": "https://api.weather.gov/stations/KVPZ/observations/latest"
+    },
+    {
+      "time": "2026-11-25T22:15:00+00:00",
+      "station": "KGBG",
+      "metric": "temp",
+      "value": 37.4,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KGBG/observations/latest"
+    },
+    {
+      "time": "2026-11-25T22:15:00+00:00",
+      "station": "KGBG",
+      "metric": "wind",
+      "value": 10.29,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KGBG/observations/latest"
+    },
+    {
+      "time": "2026-11-25T22:15:00+00:00",
+      "station": "KGBG",
+      "metric": "direction",
+      "value": 30,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KGBG/observations/latest"
     }
   ],
-  "checked_at": "2026-11-25T22:52:02.670249+00:00",
+  "checked_at": "2026-11-25T22:59:21.579695+00:00",
   "statuses": [
     {
       "station": "KBRL",
@@ -2105,7 +2132,7 @@
     {
       "station": "KGBG",
       "status": "3 values returned",
-      "observation_time": "2026-11-25T21:55:00+00:00"
+      "observation_time": "2026-11-25T22:15:00+00:00"
     },
     {
       "station": "KPIA",
