@@ -40,6 +40,10 @@ jobs:
         working-directory: observatory-github
         run: python collect_comms.py
         continue-on-error: true
+      - name: Collect national public monitoring
+        working-directory: observatory-github
+        run: python collect_national.py
+        continue-on-error: true
       - name: Save public data
         run: |
           git config user.name 'observatory-bot'
