@@ -730,7 +730,7 @@
       "source": "https://api.weather.gov/stations/KSBN/observations/latest"
     }
   ],
-  "checked_at": "2026-11-25T21:13:39.261504+00:00",
+  "checked_at": "2026-11-25T21:16:56.396966+00:00",
   "statuses": [
     {
       "station": "KBRL",
