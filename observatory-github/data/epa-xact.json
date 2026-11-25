@@ -1,6 +1,6 @@
 {
   "source": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/IAAAP_Xact_Data_Public_Viewer/FeatureServer/0",
-  "retrieved_at": "2026-11-25T22:24:20.231211+00:00",
+  "retrieved_at": "2026-11-25T22:45:41.449523+00:00",
   "features": [
     {
       "attributes": {
@@ -5168,6 +5168,38 @@
       "geometry": {
         "x": -91.563951,
         "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 559,
+        "globalid": "33039c7e-2092-4ec6-8157-96126fc952b2",
+        "Mon_Date_Time": 1795645680000,
+        "Latitude": 40.583555,
+        "Longitude": -91.697377,
+        "Mon_Results": 1.3e-05,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS04"
+      },
+      "geometry": {
+        "x": -91.697377,
+        "y": 40.583555
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 560,
+        "globalid": "98207f79-4814-4f30-83a8-6f38f450048a",
+        "Mon_Date_Time": 1795645800000,
+        "Latitude": 40.708378,
+        "Longitude": -91.449928,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS02"
+      },
+      "geometry": {
+        "x": -91.449928,
+        "y": 40.708378
       }
     }
   ]
