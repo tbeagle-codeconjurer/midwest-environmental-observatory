@@ -36,6 +36,10 @@ jobs:
         working-directory: observatory-github
         run: python collect_region.py
         continue-on-error: true
+      - name: Archive public communications
+        working-directory: observatory-github
+        run: python collect_comms.py
+        continue-on-error: true
       - name: Save public data
         run: |
           git config user.name 'observatory-bot'
