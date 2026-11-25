@@ -1,54 +1,78 @@
 name: Collect weather and publish dashboard
+
 on:
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:
+
 permissions:
   contents: write
   pages: write
   id-token: write
+
 concurrency:
   group: observatory
   cancel-in-progress: false
+
 jobs:
   collect:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Prepare EPA archive
-        working-directory: observatory-github
-        run: |
-          mkdir -p data
-          if [ ! -f data/epa-xact.json ]; then cp epa-xact.json data/epa-xact.json; fi
-      - name: Collect weather
+
+      - name: Collect NOAA weather data
         working-directory: observatory-github
         run: python collect.py
-        continue-on-error: true
-      - name: Collect EPA public records
+
+      - name: Collect EPA monitoring data
         working-directory: observatory-github
         run: python collect_epa.py
-        continue-on-error: true
-      - name: Save public data
+
+      - name: Save historical data
         run: |
           git config user.name 'observatory-bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add observatory-github/data/weather.json observatory-github/data/epa-xact*.json
-          git diff --cached --quiet || git commit -m 'Update public environmental observations'
+          git add observatory-github/data/
+          git diff --cached --quiet || git commit -m 'Update environmental observations'
           git push
-      - uses: actions/configure-pages@v5
-      - name: Prepare dashboard
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Prepare website
         run: |
           mkdir -p site/data
-          cp observatory-github/index.html site/
-          cp observatory-github/data/weather.json observatory-github/data/epa-xact*.json site/data/
-      - uses: actions/upload-pages-artifact@v3
+          cp observatory-github/index.html site/index.html
+          cp -r observatory-github/data/. site/data/
+          test -f site/index.html
+          ls -la site/
+          ls -la site/data/
+
+      - name: Upload website artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: site
-      - uses: actions/deploy-pages@v4
+          name: github-pages
+          path: ./site
+          retention-days: 7
+
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy observatory
         id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages
