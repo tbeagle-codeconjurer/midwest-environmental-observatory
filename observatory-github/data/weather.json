@@ -728,9 +728,36 @@
       "kind": "Measured",
       "quality": "NOAA flag: V",
       "source": "https://api.weather.gov/stations/KSBN/observations/latest"
+    },
+    {
+      "time": "2026-11-25T20:35:00+00:00",
+      "station": "KGBG",
+      "metric": "temp",
+      "value": 37.58,
+      "kind": "Measured",
+      "quality": "NOAA flag: S",
+      "source": "https://api.weather.gov/stations/KGBG/observations/latest"
+    },
+    {
+      "time": "2026-11-25T20:35:00+00:00",
+      "station": "KGBG",
+      "metric": "wind",
+      "value": 13.869,
+      "kind": "Measured",
+      "quality": "NOAA flag: S",
+      "source": "https://api.weather.gov/stations/KGBG/observations/latest"
+    },
+    {
+      "time": "2026-11-25T20:35:00+00:00",
+      "station": "KGBG",
+      "metric": "direction",
+      "value": 30,
+      "kind": "Measured",
+      "quality": "NOAA flag: S",
+      "source": "https://api.weather.gov/stations/KGBG/observations/latest"
     }
   ],
-  "checked_at": "2026-11-25T21:16:56.396966+00:00",
+  "checked_at": "2026-11-25T21:26:54.621301+00:00",
   "statuses": [
     {
       "station": "KBRL",
@@ -739,8 +766,8 @@
     },
     {
       "station": "KEOK",
-      "status": "3 values returned",
-      "observation_time": "2026-11-25T20:15:00+00:00"
+      "status": "0 values returned",
+      "observation_time": "2026-11-25T20:35:00+00:00"
     },
     {
       "station": "KIRK",
@@ -755,7 +782,7 @@
     {
       "station": "KGBG",
       "status": "3 values returned",
-      "observation_time": "2026-11-25T20:15:00+00:00"
+      "observation_time": "2026-11-25T20:35:00+00:00"
     },
     {
       "station": "KPIA",
