@@ -1,0 +1,2 @@
+# Deployment
+Upload all files preserving paths, including .github/workflows/collect.yml. In repository Settings > Pages choose GitHub Actions. In Actions select Collect weather and publish dashboard, then Run workflow. Scheduled runs occur at minute 17 hourly, subject to GitHub delays. Public data only; do not commit private samples or credentials. Weather only is automatically collected; chemical and particulate observations remain manual/imported. Existing local records stay on device. No historical backfill or ChatGPT synchronization yet.
