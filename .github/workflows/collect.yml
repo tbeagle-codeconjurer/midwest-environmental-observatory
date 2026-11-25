@@ -42,6 +42,8 @@ jobs:
         continue-on-error: true
       - name: Collect national public monitoring
         working-directory: observatory-github
+        env:
+          FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
         run: python collect_national.py
         continue-on-error: true
       - name: Save public data
