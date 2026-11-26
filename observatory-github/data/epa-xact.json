@@ -1,6 +1,6 @@
 {
   "source": "https://services.arcgis.com/cJ9YHowT8TU7DUyn/arcgis/rest/services/IAAAP_Xact_Data_Public_Viewer/FeatureServer/0",
-  "retrieved_at": "2026-11-25T23:14:39.482793+00:00",
+  "retrieved_at": "2026-11-26T01:13:25.868437+00:00",
   "features": [
     {
       "attributes": {
@@ -5216,6 +5216,54 @@
       "geometry": {
         "x": -91.32317,
         "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 562,
+        "globalid": "89a5fd59-9daf-41a2-8818-60d2ad225299",
+        "Mon_Date_Time": 1795651260000,
+        "Latitude": 40.77694,
+        "Longitude": -91.32317,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS01"
+      },
+      "geometry": {
+        "x": -91.32317,
+        "y": 40.77694
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 563,
+        "globalid": "26cd33d9-950a-4b88-984e-52c45562612b",
+        "Mon_Date_Time": 1795652400000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
+      }
+    },
+    {
+      "attributes": {
+        "objectid": 564,
+        "globalid": "fdb4be94-e584-4cc7-81c8-7bc2631d8d94",
+        "Mon_Date_Time": 1795652580000,
+        "Latitude": 40.646668,
+        "Longitude": -91.563951,
+        "Mon_Results": 0,
+        "Mon_Units": "µg/m3",
+        "Air_Station_ID": "AS03"
+      },
+      "geometry": {
+        "x": -91.563951,
+        "y": 40.646668
       }
     }
   ]
