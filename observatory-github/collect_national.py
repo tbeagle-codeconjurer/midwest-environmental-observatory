@@ -31,6 +31,15 @@ def main():
         except Exception as e: return k,dict(old.get(k,{'records':[]}),status='unavailable',source=u,error=str(e),attempted_at=now)
     with ThreadPoolExecutor(max_workers=2) as pool: result=dict(pool.map(run,FEEDS.items()))
     result['checked_at']=now; tmp=path.with_suffix('.tmp'); tmp.write_text(json.dumps(result,allow_nan=False)); tmp.replace(path)
+def air_timestamp(date, time):
+    text = date.strip() + ' ' + time.strip()
+    for fmt in ('%m/%d/%Y %H:%M', '%m/%d/%y %H:%M'):
+        try:
+            return dt.datetime.strptime(text, fmt).replace(tzinfo=dt.timezone.utc).isoformat()
+        except ValueError:
+            continue
+    return None
+
 def extra():
     import csv, io, os
     from urllib.parse import urlencode
@@ -65,7 +74,9 @@ def extra():
                 for metric,idx,flag in [('PM2.5',22,20),('PM10',32,19),('Ozone',24,18)]:
                     v=numeric(r[idx]); unit=r[idx+1].strip(); lat=numeric(r[4]); lon=numeric(r[5])
                     if r[flag].strip()!='1' or v is None or v<=-999 or lat is None or lon is None or unit.lower().replace('µ','u').replace('μ','u').replace('³','3').replace('^','') not in (('ppb',) if metric=='Ozone' else ('ug/m3','ug/m 3')): continue
-                    rows.append(dict(station=r[0],name=r[1],metric=metric,value=v,unit=unit,time=dt.datetime.strptime(r[10]+' '+r[11],'%m/%d/%y %H:%M').replace(tzinfo=dt.timezone.utc).isoformat(),lat=lat,lon=lon,source=url))
+                    timestamp=air_timestamp(r[10],r[11])
+                    if timestamp is None: continue
+                    rows.append(dict(station=r[0],name=r[1],metric=metric,value=v,unit=unit,time=timestamp,lat=lat,lon=lon,source=url))
             if rows: return rows
         raise ValueError('No usable recent AirNow file')
     store('air','https://files.airnowtech.org/',nationwide_air)
