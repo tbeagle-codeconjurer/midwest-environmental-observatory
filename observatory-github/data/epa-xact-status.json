@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-26T01:13:25.868437+00:00",
-  "status": "success",
-  "source_records": 329,
-  "archived_records": 329
+  "checked_at": "2026-11-26T03:48:10.289180+00:00",
+  "status": "error",
+  "error": "HTTP Error 404: Not Found",
+  "archive_retained": true
 }
