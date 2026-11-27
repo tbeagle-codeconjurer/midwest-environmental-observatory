@@ -4004,54 +4004,297 @@
       "kind": "Measured",
       "quality": "NOAA flag: V",
       "source": "https://api.weather.gov/stations/KSBN/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KBRL",
+      "metric": "temp",
+      "value": 39.2,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KBRL/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KBRL",
+      "metric": "wind",
+      "value": 5.749,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KBRL/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KBRL",
+      "metric": "direction",
+      "value": 270,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KBRL/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:15:00+00:00",
+      "station": "KEOK",
+      "metric": "temp",
+      "value": 41.0,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KEOK/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:15:00+00:00",
+      "station": "KEOK",
+      "metric": "wind",
+      "value": 4.698,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KEOK/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:15:00+00:00",
+      "station": "KEOK",
+      "metric": "direction",
+      "value": 260,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KEOK/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KIRK",
+      "metric": "temp",
+      "value": 42.8,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KIRK/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KIRK",
+      "metric": "wind",
+      "value": 6.912,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KIRK/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KIRK",
+      "metric": "direction",
+      "value": 250,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KIRK/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KUIN",
+      "metric": "temp",
+      "value": 39.2,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KUIN/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KUIN",
+      "metric": "wind",
+      "value": 5.749,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KUIN/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KUIN",
+      "metric": "direction",
+      "value": 250,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KUIN/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:15:00+00:00",
+      "station": "KGBG",
+      "metric": "temp",
+      "value": 39.38,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KGBG/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:15:00+00:00",
+      "station": "KGBG",
+      "metric": "wind",
+      "value": 4.698,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KGBG/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:15:00+00:00",
+      "station": "KGBG",
+      "metric": "direction",
+      "value": 240,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KGBG/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KPIA",
+      "metric": "temp",
+      "value": 42.8,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KPIA/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KPIA",
+      "metric": "wind",
+      "value": 5.749,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KPIA/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KPIA",
+      "metric": "direction",
+      "value": 250,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KPIA/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KDVN",
+      "metric": "temp",
+      "value": 39.2,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KDVN/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KDVN",
+      "metric": "wind",
+      "value": 6.912,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KDVN/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KDVN",
+      "metric": "direction",
+      "value": 250,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KDVN/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KVPZ",
+      "metric": "temp",
+      "value": 39.2,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KVPZ/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KVPZ",
+      "metric": "wind",
+      "value": 9.216,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KVPZ/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KVPZ",
+      "metric": "direction",
+      "value": 260,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KVPZ/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KSBN",
+      "metric": "temp",
+      "value": 41.0,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KSBN/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KSBN",
+      "metric": "wind",
+      "value": 10.357,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KSBN/observations/latest"
+    },
+    {
+      "time": "2026-11-27T23:05:00+00:00",
+      "station": "KSBN",
+      "metric": "direction",
+      "value": 290,
+      "kind": "Measured",
+      "quality": "NOAA flag: V",
+      "source": "https://api.weather.gov/stations/KSBN/observations/latest"
     }
   ],
-  "checked_at": "2026-11-27T15:38:34.902649+00:00",
+  "checked_at": "2026-11-27T23:45:27.275553+00:00",
   "statuses": [
     {
       "station": "KBRL",
       "status": "3 values returned",
-      "observation_time": "2026-11-27T15:20:00+00:00"
+      "observation_time": "2026-11-27T23:05:00+00:00"
     },
     {
       "station": "KEOK",
-      "status": "0 values returned",
-      "observation_time": "2026-11-27T14:55:00+00:00"
+      "status": "3 values returned",
+      "observation_time": "2026-11-27T23:15:00+00:00"
     },
     {
       "station": "KIRK",
       "status": "3 values returned",
-      "observation_time": "2026-11-27T15:20:00+00:00"
+      "observation_time": "2026-11-27T23:05:00+00:00"
     },
     {
       "station": "KUIN",
       "status": "3 values returned",
-      "observation_time": "2026-11-27T14:54:00+00:00"
+      "observation_time": "2026-11-27T23:05:00+00:00"
     },
     {
       "station": "KGBG",
-      "status": "0 values returned",
-      "observation_time": "2026-11-27T14:55:00+00:00"
+      "status": "3 values returned",
+      "observation_time": "2026-11-27T23:15:00+00:00"
     },
     {
       "station": "KPIA",
-      "status": "2 values returned",
-      "observation_time": "2026-11-27T14:54:00+00:00"
+      "status": "3 values returned",
+      "observation_time": "2026-11-27T23:05:00+00:00"
     },
     {
       "station": "KDVN",
       "status": "3 values returned",
-      "observation_time": "2026-11-27T14:52:00+00:00"
+      "observation_time": "2026-11-27T23:05:00+00:00"
     },
     {
       "station": "KVPZ",
       "status": "3 values returned",
-      "observation_time": "2026-11-27T15:20:00+00:00"
+      "observation_time": "2026-11-27T23:05:00+00:00"
     },
     {
       "station": "KSBN",
-      "status": "1 values returned",
-      "observation_time": "2026-11-27T14:54:00+00:00"
+      "status": "3 values returned",
+      "observation_time": "2026-11-27T23:05:00+00:00"
     }
   ]
 }
